@@ -52,6 +52,44 @@ This is where the system solves the capitalist bug. Instead of static tax bracke
 * **Land & Resource Value:** Drawing on Georgist economic theory, taxes are shifted away from *labor* (which we want to encourage) and placed heavily on *monopolized natural resources* (land, minerals, spectrum). If you hoard a finite resource, you pay a steep holding fee back to the public pool.
 * **The Result:** Capital concentration is physically capped. The Gini index is compressed mechanically, forcing stagnant wealth back into the bottom-up economy to fund Phase I (The Baseline).
 
+## 4. The Asymptotic Wealth Cap (The Kinetic Governor)
+
+Historically, wealth caps fail because hard ceilings (e.g., a 100% tax above $10 million) destroy the incentive to produce the moment the ceiling is hit. The framework requires a curve where the friction increases infinitely, but the kinetic incentive never drops to zero.
+
+We apply a continuously differentiable marginal tax rate (MTR) function:
+
+$$MTR(W) = T_{max} \times (1 - e^{-k \cdot W})$$
+
+* **$W$ (Wealth/Revenue Stream):** The total capitalized value of the entity's network extraction.
+* **$T_{max}$ (The Limit):** The absolute maximum tax rate the system approaches but never touches (e.g., $0.99$, or 99%).
+* **$k$ (The Decay Constant):** A dynamically adjusted algorithm variable that dictates how quickly the tax rate ramps up.
+
+**Real-World Application:**
+Because of the asymptote, the entity always keeps a fraction of the next dollar earned. If an entrepreneur builds an AI that generates a trillion dollars of value, they still have a mathematical reason to optimize it, but 99% of that late-stage kinetic energy is bled off and recycled back into Phase I (The Baseline).
+
+## 5. The Physical Resource Tax (The Anchor)
+
+Capital flight occurs when a system taxes *capital* or *labor*. If you tax a billionaire's bank account, they move it to the Cayman Islands. If you tax a corporation's revenue, they re-incorporate in Ireland.
+
+To close this loophole, the framework relies on a Georgist Resource Formula. You do not tax the *value created*; you tax the *monopolization of the physical game board*.
+
+$$Tax_{Resource} = \sum (A \cdot V_{L}) + (E \cdot C_{R}) + (B \cdot V_{N})$$
+
+* **$A \cdot V_{L}$ (Land Value):** The physical area ($A$) multiplied by the unimproved network value of the location ($V_{L}$). You cannot hide Manhattan real estate in an offshore shell company.
+* **$E \cdot C_{R}$ (Entropy/Extraction):** The physical energy or raw materials extracted ($E$) multiplied by the replacement cost to the biosphere ($C_{R}$).
+* **$B \cdot V_{N}$ (Bandwidth/Spectrum):** The amount of invisible public infrastructure monopolized, such as cellular spectrum, airspace, or digital bandwidth.
+
+**Real-World Application:**
+If a corporation attempts "capital flight," they can take their cash, but they cannot take the physical land, the local workforce, or the consumer market infrastructure. If they want to operate and extract value within the network, they must pay the physical holding fee.
+
+## 6. The Gravity Well Effect
+
+By combining these two mathematical structures, the system creates an economic gravity well.
+
+Because the algorithm taxes *monopoly* and *physical footprint* rather than *investment* and *labor*, the cost of building new things actually drops to near zero. A startup with no physical footprint pays effectively nothing, while a stagnant monopoly squatting on massive resources is bled dry until it releases those resources back to the market.
+
+Capital does not flee this system; it is violently attracted to it, because it is the most frictionless environment in the world to build, constrained only by the physical laws of wealth recycling.
+
 ## The Final Output
 
 The ideal state acts less like a traditional human government and more like a thermostat. It uses the frictionless, decentralized computation of free enterprise to generate wealth, while applying an algorithmic, inescapable law of thermodynamics to recycle capital before it can consolidate into monopolies. It maximizes human incentive while physically prohibiting extreme inequality.
